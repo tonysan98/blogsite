@@ -1,12 +1,65 @@
-# Node modules
-node_modules/
-
-# Python cache
+# ===================
+# Python
+# ===================
 __pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.pyc
+*.so
+*.egg-info/
+.eggs/
+*.log
 
-# IDEs
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+.idea/
+
+# ===================
+# Django
+# ===================
+db.sqlite3
+*.sqlite3
+*.db
+*.bak
+*.swp
+*.swo
+*.pid
+
+# Django static/media files (if generated)
+staticfiles/
+static/
+media/
+assets/
+
+# Local settings
+settings.py
+
+# ===================
+# PostgreSQL
+# ===================
+*.pgsql
+*.sql
+*.dump
+
+# ===================
+# Environment files
+# ===================
+.env
+.env.*
+
+# ===================
+# VS Code
+# ===================
 .vscode/
+.history/
 
-# System files
+# ===================
+# MacOS and Windows
+# ===================
 .DS_Store
 Thumbs.db
